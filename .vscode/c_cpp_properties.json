@@ -1,0 +1,35 @@
+{
+    "env": {
+        "myDefaultIncludePath": [
+            "${workspaceFolder}"
+        ],
+        "myCompilerPath": "/usr/local/cuda/bin/nvcc"
+    },
+    "configurations": [
+        {
+            "name": "sdk",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${myDefaultIncludePath}",
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "/usr/local/include/**/",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include/",
+                "/home/craigc/.conan/data/cryptopp/8.6.0/_/_/package/b911f48570f9bb2902d9e83b2b9ebf9d376c8c56/include/"
+            ],
+            "compilerPath": "${myCompilerPath}",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compileCommands": "${workspaceFolder}/.vscode/tasks.json",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

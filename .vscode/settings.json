@@ -1,0 +1,11 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/cmake-build-debug",
+    "cmake.configureSettings": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_CUDA_COMPILER": "/usr/local/cuda/bin/nvcc"
+    },
+    "cmake.generator": "Ninja",
+    "cmake.parallelJobs": 16,
+    "debug.allowBreakpointsEverywhere": true,
+    "editor.formatOnSave": true,
+}
